@@ -29,7 +29,7 @@ class A{
 };
 void B::friendly(A obj)                                    //Function of Class B -- Friend Function of Class A
 {
-    cout<<"Friend Function of B Class"<<" "<<obj.y;        //Access Private Data Member
+    cout<<"Friend Function of B Class"<<" "<<obj.y;        //Access Private Data Member using object
 }
 void func(A obj){                                          // Global Friend Function
     cout<<"Global Friend Function"<<" "<<obj.y;            // Access private data Member
