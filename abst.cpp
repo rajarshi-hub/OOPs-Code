@@ -9,7 +9,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <iostream>
 
 using namespace std;
-class A{
+class A{                        //Abstract Class Atleast one pure Virtual function
     public:
     virtual void func() = 0;    // Pure Virtual Function
     int b;
