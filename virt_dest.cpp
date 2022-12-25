@@ -32,6 +32,6 @@ int main()
 {
     A *ptr = new B;
    delete(ptr);//  Not Use Virtual  @ => #### ---- Destructor of Class A Only Called(destroying the object of B pointed ny pointer of Class A)
-
+    // there is no virtual destructor
     return 0;
 }
